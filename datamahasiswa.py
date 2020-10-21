@@ -29,7 +29,7 @@ while pilihan != 0 :
             print (nim[i]['nim'],'\t',nama[i]['nama'],'\t',asal[i]['asal'])
             penentu = False
               
-     elif pilihan == 3 :
+    elif pilihan == 3 :
         masnim = input("masukan nim : ")
         for i in range (len(nim)) :
             if masnim == nim[i]['nim'] :
